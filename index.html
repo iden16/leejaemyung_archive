@@ -4,170 +4,217 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index,follow">
-  <meta name="description" content="개인 소유 도메인 양도 문의 안내.">
-  <title>도메인 양도 안내 (leejaemyung.co.kr)</title>
+  <meta name="description" content="leejaemyung.co.kr 도메인 판매. 비공식 팬 커뮤니티·자료 아카이브를 위한 독립적인 주소. 구매 희망 가격을 제안해 주세요. 문의 idencorp@naver.co.kr">
+  <meta name="theme-color" content="#111c32">
+  <title>leejaemyung.co.kr 도메인 판매 | 구매 가격 제안</title>
+  <link rel="canonical" href="https://leejaemyung.co.kr/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="leejaemyung.co.kr | 도메인 구매 가격 제안">
+  <meta property="og:description" content="비공식 팬 커뮤니티·자료 아카이브를 위한 도메인. 구매 희망 가격을 제안해 주세요.">
+  <meta property="og:url" content="https://leejaemyung.co.kr/">
   <style>
-    :root {
-      --primary: #0c1128;
-      --secondary: #2d3748;
-      --muted: #4a5568;
-      --border: #e2e8f0;
-      --bg: #f7fafc;
-      --white: #ffffff;
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: "Segoe UI", "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
-      background: var(--bg);
-      color: var(--secondary);
-      line-height: 1.6;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-    }
-    header {
-      background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
-      color: var(--white);
-      padding: 1.5rem 1.25rem;
-      box-shadow: 0 4px 20px rgba(26, 54, 93, 0.15);
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: clamp(1.05rem, 3.8vw, 1.45rem);
-      font-weight: 600;
-      line-height: 1.35;
-    }
-    header h1 .domain-title {
-      font-weight: 500;
-      opacity: 0.92;
-    }
-    main {
-      flex: 1;
-      max-width: 36rem;
-      margin: 0 auto;
-      width: 100%;
-      padding: 1.75rem 1.25rem 2rem;
-    }
-    .card {
-      background: var(--white);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 1.35rem 1.2rem 1.2rem;
-      box-shadow: 0 8px 32px rgba(26, 54, 93, 0.08);
-    }
-    .block {
-      margin-bottom: 1.15rem;
-    }
-    .block:last-child { margin-bottom: 0; }
-    .block p {
-      margin: 0 0 0.75rem;
-      font-size: 0.95rem;
-      color: var(--muted);
-    }
-    .block p:last-child { margin-bottom: 0; }
-    .block h2 {
-      margin: 0 0 0.5rem;
-      font-size: 0.8rem;
-      font-weight: 600;
-      letter-spacing: 0.02em;
-      color: var(--secondary);
-      text-transform: none;
-    }
-    .contact {
-      text-align: center;
-      padding: 0.85rem 0 0.15rem;
-      border-top: 1px solid var(--border);
-    }
-    .contact h2 {
-      margin: 0 0 0.35rem;
-      font-size: 0.9rem;
-      font-weight: 600;
-      color: var(--muted);
-    }
-    .contact a {
-      display: inline-block;
-      margin-top: 0.45rem;
-      padding: 0.6rem 1.1rem;
-      background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
-      color: var(--white);
-      text-decoration: none;
-      border-radius: 10px;
-      font-weight: 500;
-      font-size: 0.95rem;
-    }
-    .contact a:hover, .contact a:focus {
-      filter: brightness(1.06);
-      outline: 2px solid #90cdf4;
-      outline-offset: 2px;
-    }
-    .disclaimer {
-      margin-top: 1rem;
-      padding: 1rem 0.95rem;
-      background: #edf2f7;
-      border-radius: 10px;
-      border: 1px solid #e2e8f0;
-    }
-    .disclaimer h2 {
-      margin: 0 0 0.55rem;
-      font-size: 0.85rem;
-      font-weight: 600;
-      color: var(--secondary);
-    }
-    .disclaimer ul {
-      margin: 0;
-      padding-left: 1.15rem;
-      font-size: 0.82rem;
-      color: var(--muted);
-      line-height: 1.55;
-    }
-    .disclaimer li + li { margin-top: 0.4rem; }
-    footer {
-      text-align: center;
-      padding: 0.75rem 1rem 1.5rem;
-      font-size: 0.72rem;
-      color: #a0aec0;
-    }
+    :root { --ink:#111c32; --blue:#284bdb; --muted:#536072; --line:#d3d9e3; --wash:#f3f5f9; --white:#fff; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; scroll-padding-top:24px; }
+    body { margin:0; color:var(--ink); background:var(--white); font-family:"Segoe UI","Malgun Gothic","Apple SD Gothic Neo",sans-serif; line-height:1.7; -webkit-font-smoothing:antialiased; }
+    button,input,textarea { font:inherit; }
+    button,a,input,textarea,summary { -webkit-tap-highlight-color:transparent; }
+    a { color:inherit; text-underline-offset:4px; }
+    a,button { touch-action:manipulation; }
+    :focus-visible { outline:3px solid var(--blue); outline-offset:4px; }
+    .wrap { width:min(1280px,calc(100% - 80px)); margin-inline:auto; }
+    .skip { position:absolute; top:-100px; left:16px; z-index:10; padding:10px 18px; color:#fff; background:var(--ink); }
+    .skip:focus { top:12px; }
+    .site-header { border-bottom:1px solid var(--line); }
+    .nav { min-height:84px; display:flex; align-items:center; justify-content:space-between; gap:24px; }
+    .wordmark { font-family:Georgia,"Times New Roman",serif; font-weight:700; font-size:27px; letter-spacing:-1.2px; text-decoration:none; line-height:1.2; }
+    .nav-links { display:flex; align-items:center; gap:36px; font-weight:600; font-size:14px; }
+    .nav-links a { text-decoration:none; padding:12px 0; }
+    .nav-links a:hover { color:var(--blue); }
+    .hero { display:grid; grid-template-columns:minmax(0,1.24fr) minmax(360px,1fr); gap:56px; align-items:center; padding-block:58px 62px; }
+    h1 { margin:0 0 36px; font-family:Georgia,"Times New Roman",serif; font-weight:700; font-size:clamp(56px,6.9vw,100px); line-height:.98; letter-spacing:-5px; }
+    h1 span { display:block; }
+    h1 .suffix { color:var(--blue); margin-top:8px; }
+    .hero-title { margin:0 0 18px; font-family:Georgia,"Batang",serif; font-weight:700; font-size:clamp(25px,2.55vw,35px); line-height:1.5; letter-spacing:-1.5px; word-break:keep-all; }
+    .hero-copy { margin:0; font-size:18px; line-height:1.8; word-break:keep-all; max-width:560px; }
+    .facts { list-style:none; margin:32px 0 0; padding:0; display:flex; flex-wrap:wrap; gap:8px 0; font-size:14px; font-weight:600; }
+    .facts li + li { border-left:1px solid #8791a3; margin-left:18px; padding-left:18px; }
+    .offer { border:1px solid #aeb8c8; border-radius:3px; padding:28px; background:#fff; box-shadow:0 2px 0 rgba(17,28,50,.025); }
+    h2 { font-family:Georgia,"Batang",serif; margin:0; font-size:32px; line-height:1.4; letter-spacing:-1.1px; word-break:keep-all; }
+    .offer h2 { font-size:28px; margin-bottom:22px; }
+    .field { margin:0 0 15px; }
+    label { display:block; font-size:14px; font-weight:700; margin-bottom:6px; }
+    .optional { font-weight:400; color:var(--muted); }
+    input,textarea { width:100%; min-width:0; border:1px solid #bbc3d1; border-radius:3px; padding:10px 12px; color:var(--ink); background:#fff; font-size:15px; line-height:1.5; }
+    input::placeholder,textarea::placeholder { color:#7a8290; opacity:1; }
+    textarea { min-height:100px; resize:vertical; }
+    .money { display:flex; border:1px solid #bbc3d1; border-radius:3px; }
+    .money input { border:0; }
+    .money span { flex:none; display:grid; place-items:center; padding:0 14px; border-left:1px solid #bbc3d1; font-size:13px; }
+    .money:focus-within { outline:3px solid var(--blue); outline-offset:3px; }
+    .money input:focus-visible { outline:0; }
+    .primary { width:100%; display:inline-flex; justify-content:center; align-items:center; gap:10px; min-height:49px; padding:12px 18px; border:1px solid var(--blue); border-radius:3px; color:#fff; background:var(--blue); font-weight:700; font-size:15px; text-decoration:none; cursor:pointer; }
+    .primary:hover { background:#203fb8; border-color:#203fb8; }
+    .hint { font-size:12px; color:var(--muted); margin:12px 0 15px; line-height:1.7; }
+    .direct-email { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:10px; }
+    .direct-email a { font-family:Georgia,"Times New Roman",serif; font-size:18px; font-weight:700; text-decoration:none; overflow-wrap:anywhere; }
+    .secondary { display:inline-flex; align-items:center; justify-content:center; gap:6px; border:1px solid #adb7c7; border-radius:3px; background:#fff; color:var(--ink); font-size:12px; font-weight:600; min-height:32px; padding:5px 10px; cursor:pointer; }
+    .secondary:hover { background:var(--wash); }
+    .secondary svg { width:14px; height:14px; flex:none; }
+    .notice { background:var(--wash); }
+    .notice .wrap { display:flex; gap:26px; align-items:center; padding-block:19px; font-size:13px; }
+    .notice strong { flex:none; padding-right:26px; border-right:1px solid #aab2c0; }
+    .notice p { margin:0; color:#414b5c; word-break:keep-all; }
+    .possibilities { display:grid; grid-template-columns:.7fr 1fr; gap:60px; padding-block:66px; }
+    .possibilities h2 { font-size:clamp(32px,3.8vw,48px); line-height:1.45; margin:20px 0 14px; }
+    .section-intro { max-width:350px; font-size:14px; color:var(--muted); margin:0; word-break:keep-all; }
+    .use-list { border-left:1px solid var(--line); padding-left:34px; }
+    .use-row { display:grid; grid-template-columns:42px 1fr; gap:18px; padding:20px 0; }
+    .use-row:first-child { padding-top:0; }
+    .use-row:last-child { padding-bottom:0; }
+    .use-row + .use-row { border-top:1px solid var(--line); }
+    .number { font-family:Georgia,serif; font-size:28px; font-weight:700; color:var(--blue); line-height:1.35; }
+    h3 { margin:0 0 8px; font-family:Georgia,"Batang",serif; font-size:23px; line-height:1.4; letter-spacing:-.6px; }
+    .use-row p { margin:0; color:#424c5c; font-size:14px; word-break:keep-all; }
+    .process { background:var(--wash); padding-block:42px; }
+    .section-caption { margin:8px 0 26px; font-size:14px; color:var(--muted); }
+    .steps { list-style:none; padding:0; margin:0; display:grid; grid-template-columns:repeat(3,1fr); gap:38px; }
+    .steps li { background:#fff; border:1px solid #c5cedd; border-radius:3px; padding:22px 24px; position:relative; }
+    .steps h3 { font-size:21px; display:flex; gap:14px; align-items:center; }
+    .steps .number { font-size:25px; }
+    .steps p { margin:10px 0 0; font-size:13px; color:#424c5c; word-break:keep-all; }
+    .step-arrow { position:absolute; width:18px; height:18px; right:-29px; top:calc(50% - 9px); color:#68758a; }
+    .faq { padding-block:44px 52px; }
+    .faq h2 { margin-bottom:22px; }
+    details { border-top:1px solid #b9c3d3; }
+    details:last-of-type { border-bottom:1px solid #b9c3d3; }
+    summary { list-style:none; display:flex; align-items:center; justify-content:space-between; gap:20px; font-size:16px; font-weight:600; padding:16px 8px; cursor:pointer; }
+    summary::-webkit-details-marker { display:none; }
+    summary svg { width:18px; height:18px; flex:none; transition:transform .18s ease; }
+    details[open] summary svg { transform:rotate(180deg); }
+    details p { margin:0; max-width:900px; padding:0 8px 20px; color:var(--muted); font-size:14px; }
+    .scope-note { margin:22px 0 0; color:var(--muted); font-size:12px; line-height:1.8; }
+    .site-footer { background:var(--ink); color:#fff; padding-block:30px; }
+    .footer-inner { display:flex; align-items:center; gap:36px; }
+    .site-footer .wordmark { font-size:23px; white-space:nowrap; }
+    .footer-copy { border-left:1px solid #677084; padding-left:36px; font-size:12px; color:#e0e5ef; }
+    .footer-copy p { margin:0; }
+    .footer-copy a { font-weight:700; }
+    dialog { max-width:min(560px,calc(100% - 32px)); width:560px; padding:28px; border:1px solid var(--line); border-radius:8px; color:var(--ink); }
+    dialog::backdrop { background:rgba(17,28,50,.55); }
+    .dialog-top { display:flex; justify-content:space-between; align-items:flex-start; gap:20px; margin-bottom:12px; }
+    dialog h2 { font-size:25px; }
+    dialog p { font-size:14px; color:var(--muted); }
+    .preview { white-space:pre-wrap; overflow-wrap:anywhere; font:14px/1.8 "Segoe UI","Malgun Gothic",sans-serif; background:var(--wash); border:1px solid var(--line); padding:16px; max-height:35vh; overflow:auto; }
+    .dialog-actions { display:grid; gap:10px; margin-top:18px; }
+    .dialog-actions .secondary { font-size:14px; min-height:44px; }
+    .status { margin:12px 0 0; min-height:1.6em; font-size:12px; color:var(--muted); }
+    @media(min-width:1441px) { h1 { font-size:100px; } }
+    @media(max-width:1050px) { .wrap { width:calc(100% - 48px); } .hero { gap:28px; grid-template-columns:minmax(0,1fr) minmax(340px,.9fr); } h1 { font-size:clamp(46px,6.8vw,80px); letter-spacing:-3.4px; } .hero-title { font-size:25px; } .hero-copy { font-size:16px; } .offer { padding:23px; } .facts { font-size:12px; } .facts li + li { margin-left:10px; padding-left:10px; } .steps { gap:28px; } .steps li { padding:20px; } .step-arrow { right:-24px; } }
+    @media(max-width:760px) { .wrap { width:calc(100% - 40px); } .nav { min-height:72px; gap:16px; } .wordmark { font-size:23px; } .nav-links { gap:16px; font-size:12px; } .hero { grid-template-columns:1fr; gap:34px; padding-block:42px; } h1 { font-size:clamp(44px,11.2vw,78px); letter-spacing:-2.6px; margin-bottom:25px; } h1 .suffix { margin-top:6px; } .hero-title { font-size:26px; } .hero-copy { max-width:500px; } .facts { margin-top:24px; font-size:12px; } .offer { padding:24px; } .offer h2 { font-size:26px; } .notice .wrap { display:block; padding-block:20px; } .notice strong { display:block; padding:0; border:0; margin-bottom:6px; } .possibilities { grid-template-columns:1fr; gap:26px; padding-block:42px; } .possibilities h2 { font-size:36px; margin:0 0 14px; } .possibilities h2 br { display:none; } .use-list { padding-left:0; border-left:0; } .use-row { grid-template-columns:36px 1fr; gap:14px; } .steps { grid-template-columns:1fr; gap:16px; } .steps li { padding:20px; } .step-arrow { display:none; } h2 { font-size:28px; } .process { padding-block:36px; } .faq { padding-block:36px 40px; } .footer-inner { display:block; } .site-footer .wordmark { font-size:22px; } .footer-copy { padding:0; border:0; margin-top:16px; } }
+    @media(max-width:400px) { .nav-links a:first-child { display:none; } .nav-links { gap:0; } .offer { padding:20px; } .direct-email { gap:12px; } .hero-title { font-size:24px; } }
+    @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } summary svg { transition:none; } }
   </style>
 </head>
 <body>
-  <header>
-    <h1>도메인 매각 안내 <span class="domain-title">(leejaemyung.co.kr)</span></h1>
+  <a class="skip" href="#main">본문으로 바로가기</a>
+  <header class="site-header">
+    <nav class="nav wrap" aria-label="주요 메뉴">
+      <a class="wordmark" href="#main" aria-label="leejaemyung.co.kr 판매 안내">leejaemyung.co.kr</a>
+      <div class="nav-links"><a href="#transfer">양도 안내</a><a href="#faq">자주 묻는 질문</a></div>
+    </nav>
   </header>
-
-  <main>
-    <article class="card">
-      <div class="block">
-        <p>
-          본 주소(<strong>leejaemyung.co.kr</strong>)는 개인 명의로 등록된 도메인이며,<br>
-          제3자 기관·단체의 공식 사이트가 아닙니다.
-        </p>
-        <p>
-          현재,<br>
-          <strong>도메인명 이전(양도)</strong>에 관한 문의만 받습니다.
-        </p>
-        <p>
-          실제 이전은 등록 대행사의 규정을 따르며, 조건은 개별 협의입니다. 스팸·부정 목적 문의에는 답하지 않을 수 있습니다.
-        </p>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="domain-title">
+      <div>
+        <h1 id="domain-title" aria-label="leejaemyung.co.kr"><span>leejaemyung</span><span class="suffix">.co.kr</span></h1>
+        <p class="hero-title">다음 프로젝트의 주소가 됩니다.</p>
+        <p class="hero-copy">비공식 팬 커뮤니티·자료 아카이브를 위한 도메인.<br>구매 희망 가격을 제안해 주세요.</p>
+        <ul class="facts" aria-label="판매 조건"><li>.co.kr</li><li>도메인 단독 양도</li><li>가격 제안 방식</li></ul>
       </div>
-
-      <div class="contact">
-        <h2>문의</h2>
-        <a href="mailto:idencorp@naver.co.kr">idencorp@naver.co.kr</a>
+      <section class="offer" aria-labelledby="offer-heading">
+        <h2 id="offer-heading">가격을 제안해 주세요.</h2>
+        <form id="offer-form">
+          <div class="field"><label for="amount">구매 희망 금액</label><div class="money"><input id="amount" name="amount" type="text" inputmode="numeric" pattern="[0-9, ]+" maxlength="20" placeholder="희망 금액을 입력해 주세요" aria-describedby="amount-help" required><span>KRW</span></div><span id="amount-help" hidden>숫자로 원화 금액을 입력해 주세요.</span></div>
+          <div class="field"><label for="reply-email">회신 이메일</label><input id="reply-email" name="replyEmail" type="email" autocomplete="email" maxlength="254" placeholder="예: you@example.com" required></div>
+          <div class="field"><label for="plan">활용 계획 <span class="optional">(선택)</span></label><textarea id="plan" name="plan" maxlength="1500" placeholder="예: 팬 커뮤니티 운영, 자료 아카이브 구축 등"></textarea></div>
+          <button class="primary" type="submit">이메일로 제안 보내기</button>
+        </form>
+        <p class="hint">이메일 앱에서 내용을 확인한 뒤 직접 발송합니다.<br>입력 내용은 이 사이트 서버에 저장되지 않습니다.</p>
+        <div class="direct-email"><a href="mailto:idencorp@naver.co.kr">idencorp@naver.co.kr</a><button class="secondary" id="copy-email" type="button"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="6" y="3" width="10" height="12" rx="1"></rect><path d="M4 6H3v11h10v-1"></path></svg><span>복사</span></button></div>
+        <p class="status" id="email-status" role="status" aria-live="polite"></p>
+        <noscript><p class="hint">이메일 주소를 눌러 희망 금액과 연락처를 직접 보내주세요.</p></noscript>
+      </section>
+    </section>
+    <aside class="notice" aria-label="비공식 운영 안내"><div class="wrap"><strong>비공식·독립 운영 안내</strong><p>개인이 보유한 도메인의 판매 페이지입니다. 이재명 본인, 정부, 정당, 공식 팬클럽과의 제휴·승인·공식 관계를 나타내지 않습니다.</p></div></aside>
+    <section class="possibilities wrap" aria-labelledby="possibilities-heading">
+      <div><h2 id="possibilities-heading">하나의 주소,<br>여러 가능성.</h2><p class="section-intro">이름이 드러나는 영문 주소와 한국의 .co.kr 도메인. 독립적인 커뮤니티와 기록 프로젝트의 시작점으로 활용을 구상할 수 있습니다.</p></div>
+      <div class="use-list">
+        <div class="use-row"><span class="number" aria-hidden="true">01</span><div><h3>팬 커뮤니티</h3><p>관심 있는 이용자들이 모여 소식과 이야기를 나누는 독립적인 온라인 공간을 구상해 보세요.</p></div></div>
+        <div class="use-row"><span class="number" aria-hidden="true">02</span><div><h3>자료 아카이브</h3><p>이용 권한을 확인한 공개 자료와 출처 링크를 정리하고, 기록을 체계적으로 찾아볼 수 있는 공간.</p></div></div>
+        <div class="use-row"><span class="number" aria-hidden="true">03</span><div><h3>독립 프로젝트</h3><p>팬이 기획하는 기록·연구·커뮤니티 프로젝트의 소식과 운영 안내를 한 주소에 모아보세요.</p></div></div>
       </div>
-
-      <aside class="disclaimer" aria-labelledby="disclaimer-heading">
-        <h2 id="disclaimer-heading">유의사항</h2>
-        <ul>
-          <li>이 페이지는 도메인 양도·이전과 관련한 <strong>연락 안내</strong>를 드리기 위한 것입니다.</li>
-          <li>화면에 적힌 내용은 일반 정보에 불과하며, <strong>법률·세무·표장(상표) 등 개별 사안에 대한 자문이나 결과를 보장하지 않습니다.</strong></li>
-          <li>이전 가능 여부·수수료·세금 등은 등록 대행사 규정 및 실제 합의에 따르며, 필요하면 해당 분야 전문가에게 확인해 주세요.</li>
-        </ul>
-      </aside>
-    </article>
+    </section>
+    <section class="process" id="transfer" aria-labelledby="transfer-heading"><div class="wrap">
+      <h2 id="transfer-heading">도메인 양도 진행 안내</h2><p class="section-caption">가격과 진행 방식을 먼저 협의한 후 등록 대행사의 절차에 따라 이전합니다.</p>
+      <ol class="steps">
+        <li><h3><span class="number" aria-hidden="true">01</span>가격 제안</h3><p>구매 희망 금액과 간단한 활용 계획을 이메일로 보내주세요.</p><svg class="step-arrow" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m7 3 7 7-7 7"></path></svg></li>
+        <li><h3><span class="number" aria-hidden="true">02</span>조건 협의</h3><p>가격, 비용 부담, 대금 지급 방식과 이전 일정을 서면으로 합의합니다.</p><svg class="step-arrow" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m7 3 7 7-7 7"></path></svg></li>
+        <li><h3><span class="number" aria-hidden="true">03</span>명의 이전</h3><p>합의한 조건과 등록 대행사의 절차에 따라 구매자 명의로 이전합니다.</p></li>
+      </ol>
+    </div></section>
+    <section class="faq wrap" id="faq" aria-labelledby="faq-heading">
+      <h2 id="faq-heading">자주 묻는 질문</h2>
+      <details><summary>무엇을 양도하나요?<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m4 7 6 6 6-6"></path></svg></summary><p>양도 대상은 leejaemyung.co.kr 도메인의 등록 명의입니다. 운영 중인 커뮤니티, 회원, 콘텐츠, 사이트 제작·운영 서비스는 포함되지 않습니다. 특정 인물의 성명·초상·상표에 관한 권리나 공식 지위도 포함되지 않습니다.</p></details>
+      <details><summary>가격은 어떻게 정하나요?<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m4 7 6 6 6-6"></path></svg></summary><p>정해진 공개 판매가 없이 구매 희망 가격을 제안받고 개별 협의합니다. 금액과 활용 계획을 이메일로 보내주세요. 제안 접수만으로 계약이나 구매 우선권이 성립하지 않으며, 이전 수수료·세금·기타 비용의 부담은 별도로 합의합니다.</p></details>
+      <details><summary>공식 사이트인가요?<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m4 7 6 6 6-6"></path></svg></summary><p>아닙니다. 개인 소유 도메인의 판매를 안내하는 독립적인 페이지입니다. 이재명 본인, 정부, 정당 또는 공식 팬클럽의 사이트가 아니며, 공식 관계나 승인을 나타내지 않습니다. 활용에 필요한 권리 확인, 관계자 동의 및 콘텐츠 이용 허락은 별도로 검토해야 합니다.</p></details>
+      <p class="scope-note">활용 예시는 향후 운영을 위한 아이디어입니다. 방문자 수, 검색 순위, 수익 또는 가치 상승을 보장하지 않습니다. 이전 가능 여부와 세부 조건은 등록 대행사의 규정 및 당사자 간 합의에 따릅니다.</p>
+    </section>
   </main>
-
-  <footer>© 개인 안내 페이지</footer>
+  <footer class="site-footer"><div class="wrap footer-inner"><a class="wordmark" href="#main">leejaemyung.co.kr</a><div class="footer-copy"><p>개인이 보유한 도메인의 양도를 위한 안내 페이지입니다.</p><p>문의 및 가격 제안: <a href="mailto:idencorp@naver.co.kr">idencorp@naver.co.kr</a></p></div></div></footer>
+  <dialog id="offer-preview" aria-labelledby="preview-heading" aria-describedby="preview-description">
+    <div class="dialog-top"><h2 id="preview-heading">제안 내용을 확인하세요</h2><button class="secondary" id="close-preview" type="button">닫기</button></div>
+    <p id="preview-description">아직 발송되지 않았습니다. 아래 내용을 확인하고 이메일 앱에서 직접 발송해 주세요.</p>
+    <p>받는 사람: <strong>idencorp@naver.co.kr</strong></p><pre class="preview" id="preview-body"></pre>
+    <div class="dialog-actions"><a class="primary" id="open-email" href="mailto:idencorp@naver.co.kr">이메일 앱 열기</a><button class="secondary" type="button" id="copy-proposal">제안 내용 복사</button></div>
+    <p class="status" id="proposal-status" role="status" aria-live="polite">메일 앱이 열리지 않으면 내용을 복사해 웹메일에서 보내주세요.</p>
+  </dialog>
+  <script>
+    (() => {
+      'use strict';
+      const recipient = 'idencorp@naver.co.kr';
+      const form = document.getElementById('offer-form');
+      const dialog = document.getElementById('offer-preview');
+      const preview = document.getElementById('preview-body');
+      const openEmail = document.getElementById('open-email');
+      const proposalStatus = document.getElementById('proposal-status');
+      let proposal = '';
+      const subject = '[도메인 구매 제안] leejaemyung.co.kr';
+      form.addEventListener('submit', (event) => {
+        event.preventDefault();
+        const amountInput = document.getElementById('amount');
+        const digits = amountInput.value.replace(/[, ]/g, '');
+        const validAmount = /^\d+$/.test(digits) && /[1-9]/.test(digits);
+        amountInput.setCustomValidity(validAmount ? '' : '0보다 큰 희망 금액을 숫자로 입력해 주세요.');
+        if (!form.reportValidity()) return;
+        const amount = digits.replace(/^0+(?=\d)/, '').replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+        const email = document.getElementById('reply-email').value.trim();
+        const plan = document.getElementById('plan').value.trim();
+        proposal = '구매 대상: leejaemyung.co.kr 도메인\n구매 희망 금액: ' + amount + '원 (KRW)\n회신 이메일: ' + email + '\n활용 계획: ' + (plan || '별도 협의') + '\n\n도메인 구매 의사가 있어 조건 협의를 요청드립니다.';
+        preview.textContent = proposal;
+        openEmail.href = 'mailto:' + recipient + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(proposal);
+        proposalStatus.textContent = '메일 앱이 열리지 않으면 내용을 복사해 웹메일에서 보내주세요.';
+        dialog.showModal();
+      });
+      document.getElementById('amount').addEventListener('input', (event) => event.target.setCustomValidity(''));
+      document.getElementById('close-preview').addEventListener('click', () => dialog.close());
+      async function copy(text, status, success, failure) {
+        try { await navigator.clipboard.writeText(text); status.textContent = success; }
+        catch { status.textContent = failure; }
+      }
+      document.getElementById('copy-email').addEventListener('click', () => copy(recipient, document.getElementById('email-status'), '이메일 주소를 복사했습니다.', '복사하지 못했습니다. 이메일 주소를 직접 선택해 복사해 주세요.'));
+      document.getElementById('copy-proposal').addEventListener('click', () => copy('받는 사람: ' + recipient + '\n제목: ' + subject + '\n\n' + proposal, proposalStatus, '제안 내용을 복사했습니다. 웹메일에 붙여넣어 발송해 주세요.', '복사하지 못했습니다. 위 제안 내용을 직접 선택해 복사해 주세요.'));
+    })();
+  </script>
 </body>
 </html>
